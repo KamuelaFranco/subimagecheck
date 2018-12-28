@@ -1,0 +1,25 @@
+{
+  "name": "subimagecheck",
+  "version": "1.0.0",
+  "description": "A simple demonstration of detecting whether a cropped image exists in another.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "elint . --fix",
+    "start": "node index.js"
+  },
+  "author": "Kamuela Franco <kamuela.franco@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "subimagecheck": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "sharp": "^0.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
