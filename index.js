@@ -47,7 +47,7 @@ const main = async () => {
     }
   }
 
-  const scanProcess = path.resolve('scan_process.js');
+  const scanProcess = require.resolve('./scan_process.js');
 
   if (firstImageArea > secondImageArea) {
     const topOffsetLimit = getTopOffsetLimit(firstImageMetadata, secondImageMetadata);
